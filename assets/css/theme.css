@@ -1,0 +1,18 @@
+:root {
+  --ui-color-primary-50: #eff4ff;
+  --ui-color-primary-100: #e0eaff;
+  --ui-color-primary-200: #c1d5ff;
+  --ui-color-primary-300: #9abaff;
+  --ui-color-primary-400: #739dff;
+  --ui-color-primary-500: #346ddb;
+  --ui-color-primary-600: #2c5fc2;
+  --ui-color-primary-700: #254fa3;
+  --ui-color-primary-800: #1f4186;
+  --ui-color-primary-900: #1a356d;
+  --ui-color-primary-950: #122148;
+  --ui-primary: var(--ui-color-primary-500);
+}
+
+.dark {
+  --ui-primary: var(--ui-color-primary-400);
+}
