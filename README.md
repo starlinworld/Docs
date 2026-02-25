@@ -1,82 +1,27 @@
-# Docus Default Starter
+# 星林宇宙服务器 文档
+星林宇宙服务器 官方文档 源码
 
-> A beautiful, minimal starter for creating documentation with Docus
+https://docs.starlin.world
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
+## ⚡ 技术栈
+- [Docus](https://docus.dev) - by Nuxt Content
 
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
-
-## ✨ Features
-
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
-
-## 🚀 Quick Start
-
+## 🚀 编写与测试
+安装依赖:
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+pnpm i
 ```
 
-Your documentation site will be running at `http://localhost:3000`
-
-## 📁 Project Structure
-
-```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
-```
-
-## ⚡ Built with
-
-This starter comes pre-configured with:
-
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt UI](https://ui.nuxt.com) - UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
-
-## 📖 Documentation
-
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
-
-### 🤖 AI Assistant Skill
-
-Get started quickly with Docus by adding specialized knowledge to your AI assistant (Cursor, Claude, etc.):
-
+本地测试:
 ```bash
-npx skills add nuxt-content/docus
+pnpm dev
 ```
 
-This skill helps you create documentation faster by providing your AI assistant with best practices, MDC component usage, ready-to-use templates, writing guidelines, and configuration tips for Docus. Perfect for quickly scaffolding new documentation projects.
-
-## 🚀 Deployment
-
-Build for production:
-
+生产部署:
 ```bash
-npm run build
+pnpm build
 ```
+构建后的文件将位于`.output`目录中，可随时部署到支持 Node.js 的任意托管服务提供商。
 
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
-
-## 📄 License
-
-[MIT License](https://opensource.org/licenses/MIT) 
+## 📄 许可
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)
