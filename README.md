@@ -19,7 +19,8 @@ pnpm dev
 
 生产部署:
 ```bash
-pnpm build
+pnpm exec nuxi generate --extends docus
+npx serve .output/public
 ```
 构建后的文件将位于`.output`目录中，可随时部署到支持 Node.js 的任意托管服务提供商。
 
