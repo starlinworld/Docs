@@ -1,4 +1,4 @@
-﻿const siteTitle = '星林宇宙服务器 文档'
+﻿const siteTitle = '星林宇宙 文档'
 
 export default defineAppConfig({
   ui: {
